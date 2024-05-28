@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#1E82D1</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+    
+    <style name="MenuStyle" parent="Theme.AppCompat.Light">
+        <item name="android:background">@android:color/white</item>
+        
+    </style>
+
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/noibat</item>
+        <item name="titleTextColor">@color/noibat</item> <!-- Title text color -->
+        <item name="navigationIconTint">@color/noibat</item> <!-- Navigation icon color -->
+    </style>
+
+</resources>

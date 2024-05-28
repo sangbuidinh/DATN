@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "362701647719",
+    "firebase_url": "https://demoappchat-8634c-default-rtdb.firebaseio.com",
+    "project_id": "demoappchat-8634c",
+    "storage_bucket": "demoappchat-8634c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362701647719:android:c0bf5ae97c058fc34dc9c2",
+        "android_client_info": {
+          "package_name": "com.example.demoappchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSOFax5pFBM7Z3ZHwmtz7jtB4FK2E9Ywg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362701647719:android:463c28aaf26b69484dc9c2",
+        "android_client_info": {
+          "package_name": "com.meetme.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSOFax5pFBM7Z3ZHwmtz7jtB4FK2E9Ywg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

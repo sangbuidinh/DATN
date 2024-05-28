@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="2dp"
+    tools:context="com.example.chatapp.SendImage">
+
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/image_button_border"
+        android:id="@+id/iv_sendImage"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/background_color"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:text="Gửi hình ảnh"
+        android:id="@+id/btn_sendImage"
+        tools:ignore="HardcodedText" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Không nhấn nút quay lại cho đến khi nó được tải lên"
+        android:id="@+id/tv_dont"
+        android:layout_gravity="center"
+        android:textColor="@android:color/background_dark"
+        android:visibility="invisible"
+        android:textStyle="italic"
+        tools:ignore="HardcodedText" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/pb_sendImage"
+        android:visibility="invisible" />
+
+
+</LinearLayout>
